@@ -1,0 +1,34 @@
+<div>
+  <p>
+    This small Angular PWA demonstrates how xhr requests fail with service
+    worker when browsing with Brave
+  </p>
+  <!-- Resources -->
+  <h2>Calling sentry.io through service worker</h2>
+
+  <ng-container *ngIf="resultWithSw as result">
+    <div *ngIf="result.success; then requestSucceed; else requestFailed"></div>
+    <div *ngIf="result.error">{{result.error.message }}</div>
+  </ng-container>
+  <div [hidden]="!resultWithSw?.success">
+    Reload the page to see this request fail (on Brave only)
+  </div>
+
+  <!-- Next Steps -->
+  <h2>Calling sentry.io bypassing service workers</h2>
+  <ng-container *ngIf="resultWithSw as result">
+    <div
+      *ngIf="resultSkipSw?.success; then requestSucceed; else requestFailed"
+    ></div>
+    <div [hidden]="resultSkipSw?.success">
+      Disable Brave shield to see this request success
+    </div>
+  </ng-container>
+
+  <ng-template #requestSucceed
+    ><span style="color: green">Request succeed</span></ng-template
+  >
+  <ng-template #requestFailed
+    ><span style="color: red">Request failed</span></ng-template
+  >
+</div>
