@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1617390222711,
+  "timestamp": 1617436707626,
   "index": "https://julienboulay.github.io/ngsw-brave/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://julienboulay.github.io/ngsw-brave/favicon.ico",
         "https://julienboulay.github.io/ngsw-brave/index.html",
-        "https://julienboulay.github.io/ngsw-brave/main.c2575f4444939ea8e330.js",
+        "https://julienboulay.github.io/ngsw-brave/main.5404ae16a435cdf194a1.js",
         "https://julienboulay.github.io/ngsw-brave/manifest.webmanifest",
         "https://julienboulay.github.io/ngsw-brave/polyfills.35a5ca1855eb057f016a.js",
         "https://julienboulay.github.io/ngsw-brave/runtime.acf0dec4155e77772545.js",
@@ -54,8 +54,8 @@
     "https://julienboulay.github.io/ngsw-brave/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://julienboulay.github.io/ngsw-brave/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "https://julienboulay.github.io/ngsw-brave/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://julienboulay.github.io/ngsw-brave/index.html": "b35296a26b10b84b9dba878f4285aa680c1b6b7d",
-    "https://julienboulay.github.io/ngsw-brave/main.c2575f4444939ea8e330.js": "78e1d4579720871ae51562fce569c13f5ca575b0",
+    "https://julienboulay.github.io/ngsw-brave/index.html": "5dd43bc3230b2935d250fb70f2282015114ff8e4",
+    "https://julienboulay.github.io/ngsw-brave/main.5404ae16a435cdf194a1.js": "a1bbabc31523167ae6d9d292c44a5a13a8bf5602",
     "https://julienboulay.github.io/ngsw-brave/manifest.webmanifest": "afe66ffb16e4d264d7e0e427103e2fd3b0f7c904",
     "https://julienboulay.github.io/ngsw-brave/polyfills.35a5ca1855eb057f016a.js": "578360d24ce37383f261c7ef63b1f822d28e8dde",
     "https://julienboulay.github.io/ngsw-brave/runtime.acf0dec4155e77772545.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
